@@ -1,0 +1,671 @@
+<!-- ...existing code... -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruthvik Property Management LLP | Home Inspection, Construction & Property Management</title>
+    <meta name="description"
+        content="Professional property management services in Bangalore. Expert home inspection, turnkey construction, and comprehensive property management solutions. 500+ properties managed with 15+ years experience.">
+    <meta name="keywords"
+        content="property management, home inspection, turnkey construction, bangalore, real estate, property services">
+    <meta name="author" content="Ruthvik Property Management LLP">
+    <link rel="canonical" href="https://ruthvikpropertymanagement.com">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+    <!-- Static CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="nav-content">
+                <!-- Brand -->
+                <div class="brand">
+                    <img src="Ruthvik logo 1.svg" alt="Ruthvik Property Management" class="logo">
+                    <div class="brand-text">
+                        <h1 class="brand-title">Ruthvik Property Management LLP</h1>
+                        <p class="brand-subtitle">Home Inspection • Turnkey Constructions • Property Management</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="nav-links">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#who" class="nav-link">Who We Are</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#blogs" class="nav-link">Blogs</a>
+                    <a href="#contact" class="nav-link">Contact Us</a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <i data-lucide="menu" class="menu-icon"></i>
+                    <i data-lucide="x" class="close-icon hidden"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div class="mobile-nav hidden" id="mobileNav">
+                <a href="#home" class="mobile-nav-link">Home</a>
+                <a href="#who" class="mobile-nav-link">Who We Are</a>
+                <a href="#services" class="mobile-nav-link">Services</a>
+                <a href="#blogs" class="mobile-nav-link">Blogs</a>
+                <a href="#contact" class="mobile-nav-link">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-grid">
+                    <!-- Content -->
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <h1 class="hero-title">
+                                <span class="gradient-text">Building Trust.</span> <br>
+                                <span class="hero-title-normal">Delivering Quality.</span> <br>
+                                <span class="hero-title-secondary">Managing Homes with Care.</span> <br>
+                            </h1>
+
+                            <p class="hero-description">
+                                Ruthvik Property Management LLP is your trusted partner in Home Inspection,
+                                Turnkey Constructions and Property Management. We bring precision,
+                                professionalism and peace of mind to every step of your property journey.
+                            </p>
+                        </div>
+
+                        <div class="hero-buttons">
+                            <button class="hero-button"
+                                onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">
+                                <span>Book a Free Consultation</span>
+                                <i data-lucide="arrow-right" class="button-icon"></i>
+                            </button>
+                            <button class="hero-buttonss hero-button-secondary"
+                                onclick="document.getElementById('services').scrollIntoView({ behavior: 'smooth' })">
+                                <span>Our Services</span>
+                                <i data-lucide="arrow-right" class="button-icon"></i>
+                            </button>
+                        </div>
+
+                        <!-- Highlights Card -->
+                        <div class="highlights-card">
+                            <h3 class="highlights-title">Key Highlights</h3>
+                            <div class="highlights-list">
+                                <div class="highlight-item">
+                                    <i data-lucide="check-circle" class="highlight-icon"></i>
+                                    <p>300+ home inspection checks using advanced tools</p>
+                                </div>
+                                <div class="highlight-item">
+                                    <i data-lucide="check-circle" class="highlight-icon"></i>
+                                    <p>End-to-end turnkey construction solutions</p>
+                                </div>
+                                <div class="highlight-item">
+                                    <i data-lucide="check-circle" class="highlight-icon"></i>
+                                    <p>Stress-free rental & property management</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hero Image -->
+                    <div class="hero-image-container">
+                        <div class="hero-image-wrapper">
+                            <img src="hero-property.jpg" alt="Professional property management services"
+                                class="hero-image">
+                            <div class="hero-image-overlay"></div>
+                        </div>
+
+                        <!-- Floating stats -->
+                        <div class="floating-stat floating-stat-left">
+                            <div class="stat-content">
+                                <div class="stat-number">500+</div>
+                                <div class="stat-label">Properties Managed</div>
+                            </div>
+                        </div>
+
+                        <div class="floating-stat floating-stat-right">
+                            <div class="stat-content">
+                                <div class="stat-number">15+</div>
+                                <div class="stat-label">Years Experience</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Who We Are (added) -->
+        <section id="who" class="container section scroll-reveal">
+            <div class="card">
+                <h2>Who We Are</h2>
+                <p><strong>Ruthvik Property Management LLP (RPM)</strong> protects, enhances and manages your property
+                    investments with unmatched expertise. We help homeowners, buyers, sellers, agents, designers and
+                    developers through a combination of technology, process and sincere service.</p>
+
+                <div class="grid2" style="margin-top:14px">
+                    <div>
+                        <h3>Our Mission</h3>
+                        <p class="small">To deliver transparent, technology-driven property services that ensure trust,
+                            quality, and peace of mind.</p>
+
+                        <h3 style="margin-top:12px">Our Vision</h3>
+                        <p class="small">To be the most reliable property service partner in India, known for integrity,
+                            innovation, and customer satisfaction.</p>
+                    </div>
+                    <div>
+                        <h3>Why Choose Us</h3>
+                        <ul class="small" style="padding-left:18px">
+                            <li>Experienced professionals with proven expertise</li>
+                            <li>Transparent pricing & service models</li>
+                            <li>Technology-backed inspections & software-driven reports</li>
+                            <li>Hassle-free property management with periodic reporting</li>
+                        </ul>
+                        <div style="margin-top:12px">
+                            <img src="https://picsum.photos/seed/team-rpm/640/380"
+                                alt="Team at Ruthvik Property Management" class="who-image" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+
+        <section id="services" class="container section scroll-reveal">
+            <h2>Our Services</h2>
+            <p class="small">
+                We offer three core services — Home Inspection, Turnkey Constructions and Property
+                Management. Below is an overview and how each service benefits you.
+            </p>
+
+            <div class="services services-carousel">
+                <!-- Left Arrow -->
+                <button class="carousel-arrow left" id="prevBtn">&#10094;</button>
+
+                <div class="services-track-wrapper">
+                    <div class="services-track" id="servicesTrack">
+                        <article class="card service">
+                            <img class="service-img" src="inspection-service.jpg" alt="Home Inspection" />
+                            <h3>Home Inspection</h3>
+                            <p class="small">A non-invasive, technology-driven inspection covering <strong>300+ checks
+                                    across 8+ categories</strong>. We use thermal cameras, moisture meters and
+                                specialised tools to
+                                uncover hidden issues and deliver a software-generated report with photos.</p>
+                            <ul class="small" style="padding-left:30px">
+                                <li>Detailed report with images</li>
+                                <li>Helps buyers negotiate & plan maintenance</li>
+                                <li>Supports sellers with pre-sale repairs</li>
+                            </ul>
+                            <p><a href="#contact">Schedule an Inspection →</a></p>
+                        </article>
+
+                        <article class="card service">
+                            <img class="service-img" src="construction-service.jpg" alt="Turnkey Constructions" />
+                            <h3>Turnkey Constructions</h3>
+                            <p class="small">End-to-end project delivery from concept to completion. Our EPC approach
+                                (Engineering, Procurement, Construction) reduces risk, shortens timelines and improves
+                                cost certainty.</p>
+                            <p class="small"><strong>Residential pricing tiers:</strong></p>
+                            <div class="pricing small">
+                                <div class="price"><strong>Classic</strong>
+                                    <div>₹1,750 / sq.ft (incl. GST)</div>
+                                </div>
+                                <div class="price"><strong>Standard</strong>
+                                    <div>₹1,950 / sq.ft (incl. GST)</div>
+                                </div>
+                                <div class="price"><strong>Premium</strong>
+                                    <div>₹2,250 / sq.ft (incl. GST)</div>
+                                </div>
+                                <div class="price"><strong>Exclusive</strong>
+                                    <div>₹2,700 / sq.ft (incl. GST)</div>
+                                </div>
+                            </div>
+                            <p class="small">For commercial projects, please Contact us for a custom proposal</p>
+                        </article>
+
+                        <!-- Duplicate cards below for infinite effect -->
+                        <article class="card service">
+                            <img class="service-img" src="management-service.jpg" alt="Property Management" />
+                            <h3>Property Management</h3>
+                            <p class="small">Stress-free rental assistance and comprehensive annual property management
+                                to
+                                help owners maximize returns and protect asset value.</p>
+                            <ul class="small" style="padding-left:30px">
+                                <li>Tenant screening, visits & listings</li>
+                                <li>Periodic inspections with photos</li>
+                                <li>Repair coordination & maintenance management</li>
+                                <li>Property tax & society maintenance handling</li>
+                            </ul>
+                            <p class="small"><strong>Pricing:</strong> Rental assistance: <em>15 days' rent</em>
+                                (one-time).
+                                Property management: <em>₹25,000/year</em>.</p>
+                            <p><a href="#contact">Get Property Management →</a></p>
+                        </article>
+
+                        <article class="card service">
+                            <img class="service-img" src="management-service.jpg" alt="Property Management" />
+                            <h3>Property Management</h3>
+                            <p class="small">Stress-free rental assistance and comprehensive annual property management
+                                to
+                                help owners maximize returns and protect asset value.</p>
+                            <ul class="small" style="padding-left:30px">
+                                <li>Tenant screening, visits & listings</li>
+                                <li>Periodic inspections with photos</li>
+                                <li>Repair coordination & maintenance management</li>
+                                <li>Property tax & society maintenance handling</li>
+                            </ul>
+                            <p class="small"><strong>Pricing:</strong> Rental assistance: <em>15 days' rent</em>
+                                (one-time).
+                                Property management: <em>₹25,000/year</em>.</p>
+                            <p><a href="#contact">Get Property Management →</a></p>
+                        </article>
+
+                        <article class="card service">
+                            <img class="service-img" src="management-service.jpg" alt="Property Management" />
+                            <h3>Property Management</h3>
+                            <p class="small">Stress-free rental assistance and comprehensive annual property management
+                                to
+                                help owners maximize returns and protect asset value.</p>
+                            <ul class="small" style="padding-left:30px">
+                                <li>Tenant screening, visits & listings</li>
+                                <li>Periodic inspections with photos</li>
+                                <li>Repair coordination & maintenance management</li>
+                                <li>Property tax & society maintenance handling</li>
+                            </ul>
+                            <p class="small"><strong>Pricing:</strong> Rental assistance: <em>15 days' rent</em>
+                                (one-time).
+                                Property management: <em>₹25,000/year</em>.</p>
+                            <p><a href="#contact">Get Property Management →</a></p>
+                        </article>
+
+                        <!-- Add more duplicates of your cards here for smooth infinite loop -->
+                    </div>
+                </div>
+
+                <!-- Right Arrow -->
+                <button class="carousel-arrow right" id="nextBtn">&#10095;</button>
+            </div>
+        </section>
+
+
+        <!-- Blogs Section (added) -->
+        <!-- <section id="blogs" class="container section scroll-reveal">
+            <h2>Blogs & Insights</h2>
+            <p class="small">Articles to help you make informed property decisions — maintenance, buying tips,
+                construction
+                planning and property management best practices.</p>
+
+            <div class="blog-grid" style="margin-top:16px">
+                <div class="card blog-card">
+                    <img src="https://picsum.photos/seed/blog1/800/450" alt="Blog - Home Inspection Must" />
+                    <h4 style="margin:10px 0 6px">Why Home Inspection is a Must Before Buying Property in India</h4>
+                    <p class="small">Home inspections reveal hidden defects and save you unforeseen costs. Discover the
+                        checks
+                        every buyer should insist upon.</p>
+                    <p class="small"><a href="#contact">Read more →</a></p>
+                </div>
+
+                <div class="card blog-card">
+                    <img src="https://picsum.photos/seed/blog2/800/450" alt="Blog - Renovation mistakes" />
+                    <h4 style="margin:10px 0 6px">Top 5 Mistakes to Avoid in Home Renovation</h4>
+                    <p class="small">Small shortcuts today become expensive repairs tomorrow. Learn the common pitfalls
+                        and how to
+                        avoid them.</p>
+                    <p class="small"><a href="#contact">Read more →</a></p>
+                </div>
+
+                <div class="card blog-card">
+                    <img src="https://picsum.photos/seed/blog3/800/450" alt="Blog - Turnkey construction" />
+                    <h4 style="margin:10px 0 6px">How Turnkey Construction Saves You Time & Money</h4>
+                    <p class="small">A single accountable partner, clear milestones and proper procurement reduce
+                        overruns and
+                        stress. See how.</p>
+                    <p class="small"><a href="#contact">Read more →</a></p>
+                </div>
+
+                <div class="card blog-card">
+                    <img src="https://picsum.photos/seed/blog3/800/450" alt="Blog - Turnkey construction" />
+                    <h4 style="margin:10px 0 6px">How Turnkey Construction Saves You Time & Money</h4>
+                    <p class="small">A single accountable partner, clear milestones and proper procurement reduce
+                        overruns and
+                        stress. See how.</p>
+                    <p class="small"><a href="#contact">Read more →</a></p>
+                </div>
+
+                <div class="card blog-card">
+                    <img src="https://picsum.photos/seed/blog3/800/450" alt="Blog - Turnkey construction" />
+                    <h4 style="margin:10px 0 6px">How Turnkey Construction Saves You Time & Money</h4>
+                    <p class="small">A single accountable partner, clear milestones and proper procurement reduce
+                        overruns and
+                        stress. See how.</p>
+                    <p class="small"><a href="#contact">Read more →</a></p>
+                </div>
+            </div>
+        </section> -->
+
+        <section id="blogs" class="container section scroll-reveal">
+            <h2>Blogs & Insights</h2>
+            <p class="small">
+                Articles to help you make informed property decisions — maintenance, buying tips,
+                construction planning and property management best practices.
+            </p>
+
+            <div class="blogs-carousel">
+                <div class="blogs-track">
+                    <!-- Blog Cards -->
+                    <div class="card blog-card">
+                        <img src="https://picsum.photos/seed/blog1/800/450" alt="Blog - Home Inspection Must" />
+                        <h4 style="margin:10px 0 6px">Why Home Inspection is a Must Before Buying Property in India</h4>
+                        <p class="small">Home inspections reveal hidden defects and save you unforeseen costs. Discover
+                            the
+                            checks every buyer should insist upon.</p>
+                        <p class="small"><a href="#contact">Read more →</a></p>
+                    </div>
+
+                    <div class="card blog-card">
+                        <img src="https://picsum.photos/seed/blog2/800/450" alt="Blog - Renovation mistakes" />
+                        <h4 style="margin:10px 0 6px">Top 5 Mistakes to Avoid in Home Renovation</h4>
+                        <p class="small">Small shortcuts today become expensive repairs tomorrow. Learn the common
+                            pitfalls
+                            and how to avoid them.</p>
+                        <p class="small"><a href="#contact">Read more →</a></p>
+                    </div>
+
+                    <div class="card blog-card">
+                        <img src="https://picsum.photos/seed/blog3/800/450" alt="Blog - Turnkey construction" />
+                        <h4 style="margin:10px 0 6px">How Turnkey Construction Saves You Time & Money</h4>
+                        <p class="small">A single accountable partner, clear milestones and proper procurement reduce
+                            overruns and stress. See how.</p>
+                        <p class="small"><a href="#contact">Read more →</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact scroll-reveal">
+            <div class="contact-container">
+                <div class="contact-grid">
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <h2 class="contact-title">Get In Touch</h2>
+                        <p class="contact-description">
+                            Ready to experience professional property management? Contact us today for a
+                            free consultation and discover how we can help with your property needs.
+                        </p>
+
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i data-lucide="phone" class="contact-icon"></i>
+                                <div>
+                                    <p class="contact-label">Phone</p>
+                                    <p class="contact-value">+91 98481 83583</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <i data-lucide="mail" class="contact-icon"></i>
+                                <div>
+                                    <p class="contact-label">Email</p>
+                                    <p class="contact-value"><a href="mailto:callus.rpm@gmail.com"
+                                            style="color:inherit">callus.rpm@gmail.com</a></p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <i data-lucide="map-pin" class="contact-icon"></i>
+                                <div>
+                                    <p class="contact-label">Location</p>
+                                    <p class="contact-value">Hyderabad, Telangana</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-wrapper">
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label class="form-label">Name</label>
+                                    <input type="text" class="form-input" placeholder="Your name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Phone</label>
+                                    <input type="tel" class="form-input" placeholder="+91 xxxxx xxxxx" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-input" placeholder="your.email@example.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label">Service Interested In</label>
+                                <select class="form-select" required>
+                                    <option value="">Select a service</option>
+                                    <option>Home Inspection</option>
+                                    <option>Turnkey Construction</option>
+                                    <option>Property Management</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label">Message</label>
+                                <textarea class="form-textarea" rows="4"
+                                    placeholder="Tell us about your property needs..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="form-submit">
+                                <span>Send Message</span>
+                                <i data-lucide="send" class="button-icon"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <div><strong>© Ruthvik Property Management LLP</strong></div>
+                    <div>Phone: +91 98481 83583</div>
+                    <div>
+                        Email: <a href="mailto:callus.rpm@gmail.com" class="footer-email">
+                            callus.rpm@gmail.com
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-tagline">
+                    Building Trust. Delivering Quality. Managing Homes with Care.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileNav = document.getElementById('mobileNav');
+        const menuIcon = mobileMenuBtn.querySelector('.menu-icon');
+        const closeIcon = mobileMenuBtn.querySelector('.close-icon');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileNav.classList.toggle('hidden');
+            menuIcon.classList.toggle('hidden');
+            closeIcon.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.mobile-nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileNav.classList.add('hidden');
+                menuIcon.classList.remove('hidden');
+                closeIcon.classList.add('hidden');
+            });
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                // skip if it's a mailto or external link
+                if (this.getAttribute('href').startsWith('#')) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                }
+            });
+        });
+
+        // Scroll reveal animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('revealed');
+            });
+        }, observerOptions);
+        document.querySelectorAll('.scroll-reveal').forEach(el => observer.observe(el));
+
+        // Form submission
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            alert('Thank you for your message! We will get back to you soon.');
+            this.reset();
+        });
+
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 50) {
+                header.style.backgroundColor = 'rgba(43, 43, 43, 0.95)';
+                header.style.backdropFilter = 'blur(20px)';
+            } else {
+                header.style.backgroundColor = 'rgba(43, 43, 43, 0.8)';
+                header.style.backdropFilter = 'blur(12px)';
+            }
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const track = document.getElementById("servicesTrack");
+            const prevBtn = document.getElementById("prevBtn");
+            const nextBtn = document.getElementById("nextBtn");
+
+            let cards = track.querySelectorAll(".card");
+            let cardWidth = cards[0].offsetWidth + 20; // card + margin
+            let index = 0;
+
+            // Clone cards for infinite scroll
+            track.innerHTML += track.innerHTML;
+            cards = track.querySelectorAll(".card");
+
+            // Move to specific index
+            function moveToIndex() {
+                track.style.transition = "transform 0.6s ease";
+                track.style.transform = `translateX(-${index * cardWidth}px)`;
+            }
+
+            // Next
+            function nextSlide() {
+                index++;
+                moveToIndex();
+
+                // Reset if end reached
+                if (index >= cards.length / 2) {
+                    setTimeout(() => {
+                        track.style.transition = "none";
+                        index = 0;
+                        track.style.transform = `translateX(0)`;
+                    }, 600);
+                }
+            }
+
+            // Prev
+            function prevSlide() {
+                if (index <= 0) {
+                    track.style.transition = "none";
+                    index = cards.length / 2;
+                    track.style.transform = `translateX(-${index * cardWidth}px)`;
+                }
+                setTimeout(() => {
+                    index--;
+                    moveToIndex();
+                }, 20);
+            }
+
+            // Buttons
+            nextBtn.addEventListener("click", nextSlide);
+            prevBtn.addEventListener("click", prevSlide);
+
+            // Auto scroll every 3s
+            setInterval(nextSlide, 3000);
+
+            // Adjust on resize
+            window.addEventListener("resize", () => {
+                cardWidth = cards[0].offsetWidth + 20;
+                moveToIndex();
+            });
+        });
+    </script>
+
+    <script>
+        const blogGrid = document.querySelector('#blogs .blog-grid');
+        const blogCards = document.querySelectorAll('#blogs .blog-card');
+
+        let scrollIndex = 0;
+        const cardWidth = blogCards[0].offsetWidth + 20; // width + gap
+        const delay = 3000; // 3 seconds per step
+
+        function autoScrollBlogs() {
+            scrollIndex++;
+            if (scrollIndex >= blogCards.length) {
+                scrollIndex = 0;
+                blogGrid.scrollTo({
+                    left: 0,
+                    behavior: "smooth"
+                });
+            } else {
+                blogGrid.scrollTo({
+                    left: scrollIndex * cardWidth,
+                    behavior: "smooth"
+                });
+            }
+        }
+
+        setInterval(autoScrollBlogs, delay);
+    </script>
+</body>
+
+</html>
