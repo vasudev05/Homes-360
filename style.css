@@ -1408,7 +1408,7 @@ details summary.read-more:hover {
 }
 
 .carousel-arrow:hover {
-    background: #0078ff;
+    background: var(--primary-medium);
     color: #fff;
     transform: translateY(-50%) scale(1.1);
 }
