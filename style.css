@@ -173,9 +173,8 @@ a {
 }
 
 .logo {
-    width: 3rem;
+    /* width: 4rem; */
     height: 3rem;
-    /* border-radius: .5rem; */
 }
 
 .brand-title {
