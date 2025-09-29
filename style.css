@@ -161,7 +161,7 @@ a {
     right: 0;
     margin-bottom: 20px;
     z-index: 1000;
-    background-color: rgba(43, 43, 43, 0.8);
+    /* background-color: rgba(43, 43, 43, 0.8); */
     color: white;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
