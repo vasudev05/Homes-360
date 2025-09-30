@@ -46,7 +46,7 @@
     --radius-xl: 1.5rem;
 
     /* dark theme */
-    --background: hsl(220, 14%, 6%);
+    --background: #121212;
     --background-alt: hsl(220, 14%, 8%);
     --foreground: hsl(43, 20%, 95%);
     --card: hsl(220, 14%, 8%);
@@ -161,7 +161,7 @@ a {
     right: 0;
     margin-bottom: 20px;
     z-index: 1000;
-    /* background-color: rgba(43, 43, 43, 0.8); */
+    background-color: #121212;
     color: white;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
