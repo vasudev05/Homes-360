@@ -13,21 +13,21 @@
     --secondary: hsl(223, 44%, 24%);
     --secondary-light: hsl(223, 44%, 60%);
     --secondary-foreground: hsl(0, 0%, 100%);
-    /* --background: hsl(0, 0%, 100%);
+    --background: hsl(0, 0%, 100%);
     --background-alt: hsl(43, 20%, 98%);
     --foreground: hsl(220, 14%, 8%);
     --card: hsl(0, 0%, 100%);
     --card-foreground: hsl(220, 14%, 8%);
     --card-hover: hsl(43, 30%, 97%);
     --glass: hsla(0, 0%, 100%, 0.8);
-    --glass-border: hsla(188, 74%, 33%, 0.2); */
+    --glass-border: hsla(188, 74%, 33%, 0.2);
     --accent: hsl(223, 44%, 24%);
     --accent-foreground: hsl(0, 0%, 100%);
     --accent-hover: hsl(223, 44%, 28%);
-    /* --muted: hsl(43, 15%, 95%);
-    --muted-foreground: hsl(220, 8%, 46%);
+    --muted: hsl(43, 15%, 95%);
+    --muted-foreground: #555;
     --border: hsl(43, 30%, 90%);
-    --input: hsl(43, 30%, 94%); */
+    --input: hsl(43, 30%, 94%);
     --ring: hsl(188, 74%, 33%);
     --destructive: hsl(0, 84%, 60%);
     --destructive-foreground: hsl(0, 0%, 100%);
@@ -35,18 +35,18 @@
     --warning: hsl(38, 92%, 50%);
     --gradient-primary: linear-gradient(135deg, hsl(188, 74%, 33%), hsl(188, 74%, 60%));
     --gradient-secondary: linear-gradient(135deg, hsl(168, 84%, 21%), hsl(168, 84%, 35%));
-    /* --gradient-hero: linear-gradient(135deg, hsl(188, 74%, 25%) 0%, hsl(188, 74%, 45%) 30%, hsl(188, 74%, 55%) 70%, hsl(188, 74%, 65%) 100%); */
+    --gradient-hero: linear-gradient(135deg, hsl(188, 74%, 25%) 0%, hsl(188, 74%, 45%) 30%, hsl(188, 74%, 55%) 70%, hsl(188, 74%, 65%) 100%);
     --gradient-glass: linear-gradient(135deg, hsla(0, 0%, 100%, 0.1), hsla(0, 0%, 100%, 0.05));
     --shadow-sm: 0 1px 2px hsla(188, 74%, 33%, 0.1);
     --shadow: 0 4px 12px hsla(188, 74%, 33%, 0.15);
     --shadow-lg: 0 10px 30px hsla(188, 74%, 33%, 0.2);
-    /* --shadow-glow: 0 0 20px hsla(188, 74%, 33%, 0.3); */
+    --shadow-glow: 0 0 20px hsla(188, 74%, 33%, 0.3);
     --radius: 0.75rem;
     --radius-lg: 1rem;
     --radius-xl: 1.5rem;
 
     /* dark theme */
-    --background: #121212;
+    /* --background: #121212;
     --background-alt: hsl(220, 14%, 8%);
     --foreground: hsl(43, 20%, 95%);
     --card: hsl(220, 14%, 8%);
@@ -59,7 +59,7 @@
     --border: hsl(220, 14%, 18%);
     --input: hsl(220, 14%, 15%);
     --gradient-hero: linear-gradient(135deg, hsl(188, 74%, 25%) 0%, hsl(188, 74%, 45%) 30%, hsl(188, 74%, 55%) 70%, hsl(188, 74%, 65%) 100%);
-    --shadow-glow: 0 0 25px hsla(188, 74%, 33%, 0.3);
+    --shadow-glow: 0 0 25px hsla(188, 74%, 33%, 0.3); */
 }
 
 /* Dark mode */
@@ -161,12 +161,13 @@ a {
     right: 0;
     margin-bottom: 20px;
     z-index: 1000;
-    background-color: #121212;
+    background-color: var(--background);
     color: white;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    border-bottom: 1px solid hsla(0, 0%, 100%, 0.2);
+    border-bottom: 1px solid black;
     transition: all .3s ease;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 
 .nav-container {
@@ -361,7 +362,7 @@ a {
     gap: .5rem;
     padding: 1rem 2rem;
     font-weight: 600;
-    color: white;
+    /* color: white; */
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow);
     transition: all .3s;
@@ -470,10 +471,10 @@ a {
     background: var(--glass);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    border: 1px solid hsla(0, 0%, 100%, 0.2);
+    /* border: 1px solid black; */
     border-radius: var(--radius-lg);
     padding: 1.5rem;
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow-lg);
 }
 
 .floating-stat-left {
@@ -606,9 +607,9 @@ a {
 }
 
 /* Contact Section */
-.contact {
-    padding: 5rem 0;
-}
+/* .contact {
+    padding: 3rem 0;
+} */
 
 .contact-container {
     max-width: 1200px;
@@ -742,8 +743,12 @@ a {
 /* Footer */
 .footer {
     padding: 3rem 0;
-    background: hsl(220, 14%, 10%);
-    color: white;
+    /* background-color: rgb(51, 51, 51); */
+    background: linear-gradient(135deg, hsla(188, 74%, 33%, 0.05), hsla(223, 44%, 24%, 0.05));
+    /* color: white; */
+    margin-top: 50px;
+    border-top: 1px solid black;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 
 .footer-container {
