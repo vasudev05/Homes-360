@@ -1527,6 +1527,14 @@ details summary.read-more:hover {
     margin-bottom: 10px;
 }
 
+.readmoreeee {
+    padding: 1rem 0 0 0;
+    font-size: 0.95rem;
+    color: var(--primary-medium);
+    font-weight: 600;
+    text-decoration: none;
+}
+
 
 .dcvhsdjdsvl {
     width: 20px;
